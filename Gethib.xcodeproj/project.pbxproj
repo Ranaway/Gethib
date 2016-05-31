@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046F02FD1CFD201600B6AA18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F02FC1CFD201600B6AA18 /* main.m */; };
+		046F03001CFD201600B6AA18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F02FF1CFD201600B6AA18 /* AppDelegate.m */; };
+		046F03031CFD201600B6AA18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F03021CFD201600B6AA18 /* ViewController.m */; };
+		046F03061CFD201600B6AA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F03041CFD201600B6AA18 /* Main.storyboard */; };
+		046F03091CFD201600B6AA18 /* Gethib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046F03071CFD201600B6AA18 /* Gethib.xcdatamodeld */; };
+		046F030B1CFD201600B6AA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046F030A1CFD201600B6AA18 /* Assets.xcassets */; };
+		046F030E1CFD201600B6AA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F030C1CFD201600B6AA18 /* LaunchScreen.storyboard */; };
+		046F03191CFD201600B6AA18 /* GethibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F03181CFD201600B6AA18 /* GethibTests.m */; };
+		046F03241CFD201600B6AA18 /* GethibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F03231CFD201600B6AA18 /* GethibUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046F03151CFD201600B6AA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046F02F01CFD201500B6AA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046F02F71CFD201500B6AA18;
+			remoteInfo = Gethib;
+		};
+		046F03201CFD201600B6AA18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046F02F01CFD201500B6AA18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046F02F71CFD201500B6AA18;
+			remoteInfo = Gethib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046F02F81CFD201500B6AA18 /* Gethib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gethib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F02FC1CFD201600B6AA18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046F02FE1CFD201600B6AA18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046F02FF1CFD201600B6AA18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046F03011CFD201600B6AA18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046F03021CFD201600B6AA18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046F03051CFD201600B6AA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046F03081CFD201600B6AA18 /* Gethib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gethib.xcdatamodel; sourceTree = "<group>"; };
+		046F030A1CFD201600B6AA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046F030D1CFD201600B6AA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046F030F1CFD201600B6AA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F03141CFD201600B6AA18 /* GethibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GethibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F03181CFD201600B6AA18 /* GethibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GethibTests.m; sourceTree = "<group>"; };
+		046F031A1CFD201600B6AA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F031F1CFD201600B6AA18 /* GethibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GethibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F03231CFD201600B6AA18 /* GethibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GethibUITests.m; sourceTree = "<group>"; };
+		046F03251CFD201600B6AA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046F02F51CFD201500B6AA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F03111CFD201600B6AA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F031C1CFD201600B6AA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046F02EF1CFD201500B6AA18 = {
+			isa = PBXGroup;
+			children = (
+				046F02FA1CFD201500B6AA18 /* Gethib */,
+				046F03171CFD201600B6AA18 /* GethibTests */,
+				046F03221CFD201600B6AA18 /* GethibUITests */,
+				046F02F91CFD201500B6AA18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046F02F91CFD201500B6AA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046F02F81CFD201500B6AA18 /* Gethib.app */,
+				046F03141CFD201600B6AA18 /* GethibTests.xctest */,
+				046F031F1CFD201600B6AA18 /* GethibUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046F02FA1CFD201500B6AA18 /* Gethib */ = {
+			isa = PBXGroup;
+			children = (
+				046F02FE1CFD201600B6AA18 /* AppDelegate.h */,
+				046F02FF1CFD201600B6AA18 /* AppDelegate.m */,
+				046F03011CFD201600B6AA18 /* ViewController.h */,
+				046F03021CFD201600B6AA18 /* ViewController.m */,
+				046F03041CFD201600B6AA18 /* Main.storyboard */,
+				046F030A1CFD201600B6AA18 /* Assets.xcassets */,
+				046F030C1CFD201600B6AA18 /* LaunchScreen.storyboard */,
+				046F030F1CFD201600B6AA18 /* Info.plist */,
+				046F03071CFD201600B6AA18 /* Gethib.xcdatamodeld */,
+				046F02FB1CFD201600B6AA18 /* Supporting Files */,
+			);
+			path = Gethib;
+			sourceTree = "<group>";
+		};
+		046F02FB1CFD201600B6AA18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046F02FC1CFD201600B6AA18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046F03171CFD201600B6AA18 /* GethibTests */ = {
+			isa = PBXGroup;
+			children = (
+				046F03181CFD201600B6AA18 /* GethibTests.m */,
+				046F031A1CFD201600B6AA18 /* Info.plist */,
+			);
+			path = GethibTests;
+			sourceTree = "<group>";
+		};
+		046F03221CFD201600B6AA18 /* GethibUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046F03231CFD201600B6AA18 /* GethibUITests.m */,
+				046F03251CFD201600B6AA18 /* Info.plist */,
+			);
+			path = GethibUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046F02F71CFD201500B6AA18 /* Gethib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F03281CFD201600B6AA18 /* Build configuration list for PBXNativeTarget "Gethib" */;
+			buildPhases = (
+				046F02F41CFD201500B6AA18 /* Sources */,
+				046F02F51CFD201500B6AA18 /* Frameworks */,
+				046F02F61CFD201500B6AA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gethib;
+			productName = Gethib;
+			productReference = 046F02F81CFD201500B6AA18 /* Gethib.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046F03131CFD201600B6AA18 /* GethibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F032B1CFD201600B6AA18 /* Build configuration list for PBXNativeTarget "GethibTests" */;
+			buildPhases = (
+				046F03101CFD201600B6AA18 /* Sources */,
+				046F03111CFD201600B6AA18 /* Frameworks */,
+				046F03121CFD201600B6AA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046F03161CFD201600B6AA18 /* PBXTargetDependency */,
+			);
+			name = GethibTests;
+			productName = GethibTests;
+			productReference = 046F03141CFD201600B6AA18 /* GethibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046F031E1CFD201600B6AA18 /* GethibUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F032E1CFD201600B6AA18 /* Build configuration list for PBXNativeTarget "GethibUITests" */;
+			buildPhases = (
+				046F031B1CFD201600B6AA18 /* Sources */,
+				046F031C1CFD201600B6AA18 /* Frameworks */,
+				046F031D1CFD201600B6AA18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046F03211CFD201600B6AA18 /* PBXTargetDependency */,
+			);
+			name = GethibUITests;
+			productName = GethibUITests;
+			productReference = 046F031F1CFD201600B6AA18 /* GethibUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046F02F01CFD201500B6AA18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					046F02F71CFD201500B6AA18 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					046F03131CFD201600B6AA18 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 046F02F71CFD201500B6AA18;
+					};
+					046F031E1CFD201600B6AA18 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 046F02F71CFD201500B6AA18;
+					};
+				};
+			};
+			buildConfigurationList = 046F02F31CFD201500B6AA18 /* Build configuration list for PBXProject "Gethib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046F02EF1CFD201500B6AA18;
+			productRefGroup = 046F02F91CFD201500B6AA18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046F02F71CFD201500B6AA18 /* Gethib */,
+				046F03131CFD201600B6AA18 /* GethibTests */,
+				046F031E1CFD201600B6AA18 /* GethibUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046F02F61CFD201500B6AA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F030E1CFD201600B6AA18 /* LaunchScreen.storyboard in Resources */,
+				046F030B1CFD201600B6AA18 /* Assets.xcassets in Resources */,
+				046F03061CFD201600B6AA18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F03121CFD201600B6AA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F031D1CFD201600B6AA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046F02F41CFD201500B6AA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F03031CFD201600B6AA18 /* ViewController.m in Sources */,
+				046F03001CFD201600B6AA18 /* AppDelegate.m in Sources */,
+				046F03091CFD201600B6AA18 /* Gethib.xcdatamodeld in Sources */,
+				046F02FD1CFD201600B6AA18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F03101CFD201600B6AA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F03191CFD201600B6AA18 /* GethibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F031B1CFD201600B6AA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F03241CFD201600B6AA18 /* GethibUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046F03161CFD201600B6AA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046F02F71CFD201500B6AA18 /* Gethib */;
+			targetProxy = 046F03151CFD201600B6AA18 /* PBXContainerItemProxy */;
+		};
+		046F03211CFD201600B6AA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046F02F71CFD201500B6AA18 /* Gethib */;
+			targetProxy = 046F03201CFD201600B6AA18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046F03041CFD201600B6AA18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F03051CFD201600B6AA18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046F030C1CFD201600B6AA18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F030D1CFD201600B6AA18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046F03261CFD201600B6AA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046F03271CFD201600B6AA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046F03291CFD201600B6AA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gethib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "T-one.Gethib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		046F032A1CFD201600B6AA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gethib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "T-one.Gethib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		046F032C1CFD201600B6AA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GethibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "T-one.GethibTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gethib.app/Gethib";
+			};
+			name = Debug;
+		};
+		046F032D1CFD201600B6AA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GethibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "T-one.GethibTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gethib.app/Gethib";
+			};
+			name = Release;
+		};
+		046F032F1CFD201600B6AA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GethibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "T-one.GethibUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gethib;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		046F03301CFD201600B6AA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GethibUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "T-one.GethibUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gethib;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046F02F31CFD201500B6AA18 /* Build configuration list for PBXProject "Gethib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F03261CFD201600B6AA18 /* Debug */,
+				046F03271CFD201600B6AA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F03281CFD201600B6AA18 /* Build configuration list for PBXNativeTarget "Gethib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F03291CFD201600B6AA18 /* Debug */,
+				046F032A1CFD201600B6AA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046F032B1CFD201600B6AA18 /* Build configuration list for PBXNativeTarget "GethibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F032C1CFD201600B6AA18 /* Debug */,
+				046F032D1CFD201600B6AA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046F032E1CFD201600B6AA18 /* Build configuration list for PBXNativeTarget "GethibUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F032F1CFD201600B6AA18 /* Debug */,
+				046F03301CFD201600B6AA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046F03071CFD201600B6AA18 /* Gethib.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046F03081CFD201600B6AA18 /* Gethib.xcdatamodel */,
+			);
+			currentVersion = 046F03081CFD201600B6AA18 /* Gethib.xcdatamodel */;
+			path = Gethib.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046F02F01CFD201500B6AA18 /* Project object */;
+}
